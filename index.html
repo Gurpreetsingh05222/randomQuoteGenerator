@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Random Quote Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Font-->
+  <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Roboto" rel="stylesheet">
+
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div id="main" class="container-fluid d-flex flex-column align-content-center">
+  <header class="text-center">
+    <h1 class="font-weight-bold pt-3">Random Quote Generator</h1>
+  </header>
+  
+  <!--Quotes display-->
+  <section class="container">
+    <div class="jumbotron" id="quote-display">
+      <p><i class="fa fa-quote-left"></i> <span id="quote-area"></span> <i class="fa fa-quote-right"></i></p>
+      <p class="float-right"> - <span id="author"></span></p>
+    </div>
+  </section>
+
+  <section class="container buttons">
+    <div class="text-center">
+      <button id="new-quote" class="btn btn-primary" onclick="newQuote()"> New Quote</button>
+    </div>
+  </section>
+  
+  <footer>
+    <p class="text-center">Coded and Designed by<a href="https://github.com/Gurpreetsingh05222"> Gurpreet singh </a></p>
+  </footer>
+</div>
+
+  <!-- jQuery 3.2.1-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <!--BOOTSTRAP-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+  <script  src="js/index.js"></script>
+
+</body>
+
+</html>
